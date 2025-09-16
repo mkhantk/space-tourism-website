@@ -1,12 +1,57 @@
-# React + Vite
+# Frontend Mentor - Space tourism website solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Space tourism website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-## Expanding the ESLint configuration
+## Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for each of the website's pages depending on their device's screen size
+- See hover states for all interactive elements on the page
+- View each page and be able to toggle between the tabs to see new information
+
+### Screenshot
+
+![](./screenshot.png)
+
+### Links
+
+- Solution URL: [GitHub Repo](https://github.com/mkhantk/space-tourism-website)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- Tailwind CSS
+- [React](https://reactjs.org/) - JS library
+- Redux with Redux toolkit
+- React Router
+
+### What I learned
+
+Well, I've learned a lot, I planned to use redux here because, I was learning the usage of redux in a practical way. I find it easy coming from the useContext/useReducer combo although there is only a little of state management in this project. Anyway, I think this is the best way to level up your skills, by doing projects. Well, I got to read a lot of doc but in the end, it work out well. I do appreciate the figma files provided for the design.
+
+## Author
+
+- Frontend Mentor - [@mkhantk](https://www.frontendmentor.io/profile/mkhantk)
