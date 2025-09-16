@@ -8,11 +8,17 @@ import Destination from "./pages/Destination";
 import Crew from "./pages/Crew";
 import Technology from "./pages/Technology";
 import Navbar from "./components/Navbar";
+import { useSelector } from "react-redux";
+import VarticalNav from "./components/VarticalNav";
 
 function App() {
+  const varticalNav = useSelector((state) => state.varticalNav);
+  console.log(varticalNav);
+
   return (
-    <main>
+    <main className="min-h-screen w-full relative transition-all duration-500 ease-in-out">
       <Navbar />
+      {varticalNav && <VarticalNav />}
       <Routes>
         <Route path="/" element={<Homepage />}></Route>
         <Route path="/Destination" element={<Destination />}></Route>
