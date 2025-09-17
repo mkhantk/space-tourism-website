@@ -19,7 +19,7 @@ function Destination() {
   };
   return (
     data && (
-      <main className="min-h-screen w-full bg-cover bg-center bg-[url('./assets/destination/background-destination-mobile.jpg')] md:bg-[url('./assets/destination/background-destination-tablet.jpg')] lg:bg-[url('./assets/destination/background-destination-desktop.jpg')] text-white flex flex-col xl:justify-around items-center gap-5 md:gap-8 lg:gap-16 pt-20 p-5 md:pt-36">
+      <main className="min-h-screen w-full bg-cover bg-center bg-[url('/assets/destination/background-destination-mobile.jpg')] md:bg-[url('/assets/destination/background-destination-tablet.jpg')] lg:bg-[url('/assets/destination/background-destination-desktop.jpg')] text-white flex flex-col xl:justify-around items-center gap-5 md:gap-8 lg:gap-16 pt-20 p-5 md:pt-36">
         <h1 className="font-barlow-condensed tracking-widest md:text-start md:w-full lg:text-lg">
           <span className="text-base lg:text-lg text-gray-500 font-bold mx-5">
             01

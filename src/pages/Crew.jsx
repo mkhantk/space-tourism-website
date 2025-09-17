@@ -17,7 +17,7 @@ function Crew() {
 
   return (
     currentData && (
-      <main className="min-h-screen bg-[url('./assets/crew/background-crew-mobile.jpg')]  md:bg-[url('./assets/crew/background-crew-tablet.jpg')] lg:bg-[url('./assets/crew/background-crew-desktop.jpg')] bg-cover bg-center bg-no-repeat pt-20 lg:pb-12 flex flex-col justify-center items-center lg:justify-start gap-8 lg:gap-0 lg:px-16 xl:px-24 xl:pt-24">
+      <main className="min-h-screen bg-[url('/assets/crew/background-crew-mobile.jpg')]  md:bg-[url('/assets/crew/background-crew-tablet.jpg')] lg:bg-[url('/assets/crew/background-crew-desktop.jpg')] bg-cover bg-center bg-no-repeat pt-20 lg:pb-12 flex flex-col justify-center items-center lg:justify-start gap-8 lg:gap-0 lg:px-16 xl:px-24 xl:pt-24">
         <h1 className="font-barlow-condensed text-center tracking-widest my-8 md:my-10 md:text-lg md:text-start w-full ">
           <span className="text-base font-bold text-gray-500 mx-3 lg:text-lg">
             02
