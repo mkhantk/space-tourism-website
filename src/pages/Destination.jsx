@@ -1,3 +1,4 @@
+import { current } from "@reduxjs/toolkit";
 import React, { useEffect, useState } from "react";
 
 function Destination() {
@@ -13,7 +14,7 @@ function Destination() {
         );
         setData(current);
       });
-  });
+  }, [destination]);
   const handleDestination = (e) => {
     setDestination(e.currentTarget.id);
   };
