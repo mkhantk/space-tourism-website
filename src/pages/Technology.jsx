@@ -13,7 +13,7 @@ function Technology() {
 
   return (
     currentData && (
-      <main className="min-h-screen w-full bg-[url('/assets/technology/background-technology-mobile.jpg')] md:bg-[url('/assets/technology/background-technology-tablet.jpg')] lg:bg-[url('/assets/technology/background-technology-mobile.jpg')] pt-20 bg-cover bg-center bg-no-repeat lg:flex flex-col lg:pl-20 xl:pl-36 xl:pt-36">
+      <main className="min-h-screen w-full bg-blue-bg transition-colors duration-700 bg-[url('/assets/technology/background-technology-mobile.jpg')] md:bg-[url('/assets/technology/background-technology-tablet.jpg')] lg:bg-[url('/assets/technology/background-technology-mobile.jpg')] pt-20 bg-cover bg-center bg-no-repeat lg:flex flex-col lg:pl-20 xl:pl-36 xl:pt-36">
         <h1 className="text-center font-barlow-condensed tracking-widest text-white py-5 md:text-start md:px-5 md:py-10 lg:px-0  lg:text-lg ">
           {/* header */}
           <span className="text-base font-bold text-gray-500 mx-5 lg:text-lg lg:ml-0">
