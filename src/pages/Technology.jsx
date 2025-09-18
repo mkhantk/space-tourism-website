@@ -5,7 +5,7 @@ function Technology() {
   const [currentData, setCurrentData] = useState();
 
   useEffect(() => {
-    fetch("./data.json")
+    fetch("/data.json")
       .then((response) => response.json())
       .then((data) => setCurrentData(data.technology[current]));
   }, [current]);
