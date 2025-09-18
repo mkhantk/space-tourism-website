@@ -13,7 +13,7 @@ import VarticalNav from "./components/VarticalNav";
 
 function App() {
   const varticalNav = useSelector((state) => state.varticalNav);
-  console.log(varticalNav);
+  // console.log(varticalNav);
 
   return (
     <main className="min-h-screen w-full relative transition-all duration-500 ease-in-out">

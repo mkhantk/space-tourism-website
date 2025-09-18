@@ -9,7 +9,6 @@ function Technology() {
       .then((response) => response.json())
       .then((data) => setCurrentData(data.technology[current]));
   }, [current]);
-  console.log(currentData);
 
   return (
     currentData && (

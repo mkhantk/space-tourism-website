@@ -9,7 +9,6 @@ function Destination() {
       .then((response) => response.json())
       .then((data) => setCurrentData(data.destinations));
   }, []);
-  console.log(currentData);
 
   return (
     currentData && (
