@@ -106,10 +106,10 @@ function Destination() {
             </div>
             <div className="flex flex-col justify-center lg:items-start items-center gap-5 md:w-4/5 lg:w-5/6">
               <header className="font-bellefair text-5xl tracking-wide uppercase leading-relaxed md:text-7xl lg:text-start xl:text-8xl ">
-                {currentData[0].name}
+                {currentData[current].name}
               </header>
               <p className="text-center lg:text-start xl:text-lg text-blue-fg">
-                {currentData[0].description}
+                {currentData[current].description}
               </p>
               <hr className="text-white w-full" />
               <div className="md:flex justify-around lg:justify-start  lg:gap-18 xl:gap-32 items-center md:w-full">
@@ -118,7 +118,7 @@ function Destination() {
                     AVE. DISTANCE
                   </h2>
                   <p className="font-bellefair text-3xl uppercase text-center lg:text-start my-2">
-                    {currentData[0].distance}
+                    {currentData[current].distance}
                   </p>
                 </div>
 
@@ -127,7 +127,7 @@ function Destination() {
                     EST. TRAVEL TIME
                   </h2>
                   <p className="font-bellefair text-3xl uppercase text-center lg:text-start my-2">
-                    {currentData[0].travel}
+                    {currentData[current].travel}
                   </p>
                 </div>
               </div>
